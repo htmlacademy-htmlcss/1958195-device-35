@@ -4,17 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>HTML Academy: Девайс - Главная страница</title>
+    <title>HTML Academy: Девайс - Каталог товаров</title>
   </head>
   <body>
 
 
     <header class="index-header">
       <div class="container">
-
         <div class="header-container">
 
-          <a class="header-logo" href="#">
+          <a class="header-logo" href="index.html">
             <svg width="145" height="36" viewBox="0 0 145 36" aria-label="Device - Интернет магазин гаджетов." aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path d="M27.2188 0V35.3H19.6135V32.9C17.9124 34.8 15.5107 36 12.1084 36C5.5038 36 0 30.2 0 22.7C0 15.2 5.5038 9.4 12.1084 9.4C15.5107 9.4 18.0124 10.6 19.6135 12.5V0H27.2188ZM19.6135 22.7C19.6135 18.9 17.1118 16.5 13.6094 16.5C10.107 16.5 7.60524 18.9 7.60524 22.7C7.60524 26.5 10.107 28.9 13.6094 28.9C17.1118 28.8 19.6135 26.5 19.6135 22.7Z"/>
               <path d="M43.7298 29.1999C45.8313 29.1999 47.5325 28.3999 48.5332 27.2999L54.6374 30.7999C52.1356 34.1999 48.4331 35.9999 43.6298 35.9999C35.0238 35.9999 29.6201 30.1999 29.6201 22.6999C29.6201 15.1999 35.0238 9.3999 43.0294 9.3999C50.4345 9.3999 55.8382 15.0999 55.8382 22.6999C55.8382 23.7999 55.7381 24.7999 55.538 25.6999H37.6256C38.6263 28.2999 40.9279 29.1999 43.7298 29.1999ZM48.333 20.0999C47.5325 17.1999 45.2309 16.0999 42.9293 16.0999C40.0273 16.0999 38.126 17.4999 37.4255 20.0999H48.333Z"/>
@@ -51,7 +50,6 @@
           </div>
 
           <nav class="main-navigation">
-
             <ul class="catalog-navigation-list clear-list">
               <li class="catalog-navigation-item">
                 <a class="catalog-navigation-link navigation-link icon-plus" href="#">Каталог товаров</a>
@@ -69,206 +67,219 @@
                 <a class="company-navigation-link navigation-link" href="#">Контакты</a>
               </li>
             </ul>
-
           </nav>
+
         </div>
       </div>
     </header>
 
 
-    <main class="index-main">
-      <h1 class="visually-hidden">Интернет магазин Девайс - доставка гаджетов по России</h1>
-      <section class="slider">
-        <div class="container">
+    <main class="catalog-main">
+      <div class="container">
 
 
-          <div class="slider-control-arrows">
-            <button class="slider-button button-prev" type="button">
-              <span class="visually-hidden">Предыдущий слайдер.</span>
-            </button>
-            <button class="slider-button button-next" type="button">
-              <span class="visually-hidden">Предыдущий слайдер.</span>
-            </button>
-          </div>
-
-
-          <div class="slider-container">
-            <img class="slider-image" width="560" height="560" src="images/slider-quadrocopter.png" alt="Квадрокоптер с мощным лазером.">
-
-            <div class="slider-content-wrapper">
-              <h2 class="slider-title title">Порхает как бабочка, жалит как пчела!</h2>
-              <p class="slider-description description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
-              <a class="slider-button-more button" href="">Подробнее</a>
-              <div class="slider-details">
-                <dl class="slider-details-group">
-                  <dt class="details-description">800 м</dt>
-                  <dd class="details-title">Дальность полета</dd>
-                </dl>
-                <dl class="slider-details-group">
-                  <dt class="details-description">50 м</dt>
-                  <dd class="details-title">Радиус поражения</dd>
-                </dl>
-              </div>
-              <span class="slider-number">01</span>
-            </div>
-
-          </div>
-
-          <ol class="slider-control-dots clear-list">
-            <li class="control-dots-item">
-              <button class="scontrol-dots-button control-dots-button-current" type="button">
-                <span class="visually-hidden">Слайдер 01</span>
-              </button>
+        <section class="catalog-header">
+          <h1 class="inner-title">Моноподы для селфи</h1>
+          <ul class="breadcrumbs-list clear-list">
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link" href="index.html" >Главная</a>
             </li>
-            <li class="control-dots-item">
-              <button class="control-dots-button" type="button">
-                <span class="visually-hidden">Слайдер 02</span>
-              </button>
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link" href="catalog.html" >Каталог товаров</a>
             </li>
-            <li class="control-dots-item">
-              <button class="control-dots-button" type="button">
-                <span class="visually-hidden">Слайдер 03</span>
-              </button>
-            </li>
-          </ol>
-
-        </div>
-      </section>
-
-
-      <section class="second-navigation">
-        <h2 class="visually-hidden">Каталог товаров</h2>
-        <div class="container">
-          <ul class="second-navigation-list clear-list">
-            <li class="second-navigation-item">
-              <a class="second-navigation-link icon-virtual-reality" href="#">Виртуальная реальность</a>
-            </li>
-            <li class="second-navigation-item">
-              <a class="second-navigation-link icon-monopod" href="#">Моноподы для селфи</a>
-            </li>
-            <li class="second-navigation-item">
-              <a class="second-navigation-link icon-action-cameras" href="#">Экшн-камеры</a>
-            </li>
-            <li class="second-navigation-item">
-              <a class="second-navigation-link icon-fitnes-bracelets" href="#">Фитнес-браслеты</a>
-            </li>
-            <li class="second-navigation-item">
-              <a class="second-navigation-link icon-smart-watch" href="#">Умные часы</a>
-            </li>
-            <li class="second-navigation-item">
-              <a class="second-navigation-link icon-quadrocopter" href="#">Квадрокоптеры</a>
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link breadcrumbs-link-current" >Моноподы для селфи</a>
             </li>
           </ul>
-        </div>
-      </section>
+        </section>
 
+        <section class="catalog-filter">
+          <h2 class="visually-hidden">Фильтр товаров</h2>
+          <form class="filter-form" action="https://echo.htmlacademy.ru/" method="get">
 
-      <section class="information">
+            <fieldset class="filter-group filter-price">
+              <legend class="filter-title">Стоимость</legend>
 
-        <h2 class="visually-hidden">Информация для покупателя</h2>
-        <div class="information-container">
-          <div class="container">
-            <div class="information-block-wrapper">
-
-              <div class="information-menu-wrapper">
-                <ul class="information-menu clear-list">
-                  <li class="information-item">
-                    <button class="information-button button information-button-current" href="#information-delivery" type="button">Доставка</button>
-                  </li>
-                  <li class="information-item">
-                    <button class="information-button button" href="#information-guaranty" type="button">Гарантия</button>
-                  </li>
-                  <li class="information-item">
-                    <button class="information-button button" href="#information-credit" type="button">Кредит</button>
-                  </li>
-                </ul>
+              <div class="filter-range-scale">
+                <div class="filter-range-bar"> <!--  style="left: 0; width: 226px" -->
+                  <button class="filter-range-toggle toggle-min" type="button">
+                    <span class="visually-hidden">Изменить минимальную цену.</span>
+                  </button>
+                  <button class="filter-range-toggle toggle-max" type="button">
+                    <span class="visually-hidden">Изменить максимальную цену.</span>
+                  </button>
+                </div>
               </div>
 
-              <div class="information-content-wrapper">
-                <ul class="information-content-list clear-list">
-                  <li class="information-content-item" id="information-delivery">
-                    <h3 class="information-content-title">Доставка</h3>
-                    <p class="information-content-description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
-                  </li>
-                  <li class="information-content-item" id="information-guaranty">
-                    <h3 class="information-content-title">Гарантия</h3>
-                    <p class="information-content-description">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
-                  </li>
-                  <li class="information-content-item" id="information-credit">
-                    <h3 class="information-content-title">Доставка</h3>
-                    <p class="information-content-description">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для банка, разумеется.</p>
-                  </li>
-                </ul>
+            </fieldset>
+
+            <fieldset class="filter-group filter-infrastructure">
+              <legend class="filter-title">Цвет</legend>
+              <ul class="filter-list clear-list">
+
+                <li class="filter-item">
+                  <label class="filter-control">
+                    <input class="visually-hidden filter-control-input" type="checkbox" name="black" checked>
+                    <span class="filter-control-mark"></span>
+                    <span class="filter-control-label">Черный</span>
+                  </label>
+                </li>
+
+                <li class="filter-item">
+                  <label class="filter-control">
+                    <input class="visually-hidden filter-control-input" type="checkbox" name="white" checked>
+                    <span class="filter-control-mark"></span>
+                    <span class="filter-control-label">Белый</span>
+                  </label>
+                </li>
+
+                <li class="filter-item">
+                  <label class="filter-control">
+                    <input class="visually-hidden filter-control-input" type="checkbox" name="blue">
+                    <span class="filter-control-mark"></span>
+                    <span class="filter-control-label">Синий</span>
+                  </label>
+                </li>
+
+                <li class="filter-item">
+                  <label class="filter-control">
+                    <input class="visually-hidden filter-control-input" type="checkbox" name="red">
+                    <span class="filter-control-mark"></span>
+                    <span class="filter-control-label">Красный</span>
+                  </label>
+                </li>
+
+                <li class="filter-item">
+                  <label class="filter-control">
+                    <input class="visually-hidden filter-control-input" type="checkbox" name="pink">
+                    <span class="filter-control-mark"></span>
+                    <span class="filter-control-label">Розовый</span>
+                  </label>
+                </li>
+
+              </ul>
+            </fieldset>
+
+            <fieldset class="filter-group filter-housing-type">
+              <legend class="filter-title">Bluetooth</legend>
+              <ul class="filter-list clear-list">
+
+                <li class="filter-item">
+                  <label class="filter-control">
+                    <input class="visually-hidden filter-control-input" type="radio" name="bluetooth-yes" value="bluetooth" checked>
+                    <span class="filter-control-mark"></span>
+                    <span class="filter-control-label">Есть</span>
+                  </label>
+                </li>
+
+                <li class="filter-item">
+                  <label class="filter-control">
+                    <input class="visually-hidden filter-control-input" type="radio" name="bluetooth-no" value="bluetooth">
+                    <span class="filter-control-mark"></span>
+                    <span class="filter-control-label">Нет</span>
+                  </label>
+                </li>
+
+              </ul>
+            </fieldset>
+
+            <button class="filter-button button button-blue" type="submit">Показать</button>
+
+          </form>
+        </section>
+
+
+        <section class="cards">
+          <div class="sort-wrapper">
+            <h2 class="sort-title">Cортировка:</h2>
+
+            <select class="select-control" aria-label="Сортировка">
+              <option value="cheap">Сначала дешёвое</option>
+              <option value="popular">Сначала популярное</option>
+              <option value="expensive">Сначала дорогое</option>
+            </select>
+
+            <div class="sort-arrows">
+
+              <div class="arrow arrow-up">
+                <span class="visually-hidden">Сортировать по возрастанию</span>
+              </div>
+
+              <div class="arrow arrow-down">
+                <span class="visually-hidden">Сортировать по убыванию</span>
               </div>
 
             </div>
           </div>
-        </div>
 
-        <div class="container">
-          <a class="information-note" href="#">Доставим редкий товар под заказ</a>
-        </div>
+          <div class="cards-wrapper">
+            <h2 class="visually-hidden">Товары в категории</h2>
+            <ul class="card-list clear-list">
 
-      </section>
-
-
-      <div class="contacts-wrapper-column">
-        <div class="container">
-
-          <section class="about-us">
-            <h2 class="about-us-title title">О нас</h2>
-            <p class="about-us-desctiption">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
-            <p class="about-us-desctiption">Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</p>
-            <ul class="about-us-list clear-list">
-              <li class="about-us-item">
-                <a class="about-us-link" href="#">Меловые линии</a>
+              <li class="card-item">
+                <a class="card-link" href="#">
+                  <img class="card-img" width="360" height="360" src="images/catalog/amateur-selfie-stick.png" alt="Фото любительской селфи палки.">
+                  <h3 class="card-title">Любительская селфи-палка</h3>
+                  <span class="card-price">500 ₽</span>
+                </a>
               </li>
-              <li class="about-us-item">
-                <a class="about-us-link" href="#">СДИК</a>
+
+              <li class="card-item">
+                <a class="card-link" href="#">
+                  <img class="card-img" width="360" height="360" src="images/catalog/professional-selfie-stick.png" alt="Фото професиональной селфи палки.">
+                  <h3 class="card-title">Профессиональная селфи-палка</h3>
+                  <span class="card-price">1 500 ₽</span>
+                </a>
               </li>
-              <li class="about-us-item">
-                <a class="about-us-link" href="#">ТоксБерри</a>
+
+              <li class="card-item">
+                <a class="card-link" href="#">
+                  <img class="card-img" width="360" height="360" src="images/catalog/unsinkable-selfie-stick.png" alt="Фото непотопляемой селфи палки.">
+                  <h3 class="card-title">Непотопляемая селфи-палка</h3>
+                  <span class="card-price">2 500 ₽</span>
+                </a>
               </li>
+
+              <li class="card-item">
+                <a class="card-link" href="#">
+                  <img class="card-img" width="360" height="360" src="images/catalog/selfie-stick-follow-me.png" alt="Фото селфи палки «Следуй за мной».">
+                  <h3 class="card-title">Селфи-палка «Следуй за мной»</h3>
+                  <span class="card-price">1 500 ₽</span>
+                </a>
+              </li>
+
             </ul>
-            <a class="about-us-button button" href="#">Подробнее о нас</a>
-          </section>
 
-          <section class="contacts">
-            <h2 class="contacts-title title">Контакты</h2>
-            <p class="contacts-desctiption">Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить работоспособность покупки.</p>
+            <div class="cards-pagination">
+              <button class="cards-button-more" type="button">Загрузить ещё</button>
+              <ul class="cards-pagination-list clear-list">
+                <li class="cards-pagination-item">
+                  <a class="cards-pagination-link" href="#">Назад</a>
+                </li>
+                <li class="cards-pagination-item">
+                  <a class="cards-pagination-link" href="#">1</a>
+                </li>
+                <li class="cards-pagination-item">
+                  <a class="cards-pagination-link" href="#">2</a>
+                </li>
+                <li class="cards-pagination-item">
+                  <a class="cards-pagination-link" href="#">3</a>
+                </li>
+                <li class="cards-pagination-item">
+                  <span class="cards-pagination-dots">...</span>
+                </li>
+                <li class="cards-pagination-item">
+                  <a class="cards-pagination-link" href="#">15</a>
+                </li>
+                <li class="cards-pagination-item">
+                  <a class="cards-pagination-link" href="#">Вперед</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
-            <b class="contacts-name">Интернет-магазин «Девайс»</b>
-            <p class="contacts-adress">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-            <a class="contacts-tel" href="tel:+78128121212">+7 (812) 812-12-12</a>
-
-            <b class="contacts-name">Время работы</b>
-            <p class="contacts-work-time">пн—пт: с 10:00 до 22:00 <br>сб—вс: с 10:00 до 19:00</p>
-            <a class="contacts-button button" href="#">Подробнее о нас</a>
-          </section>
-
-        </div>
       </div>
-
-      <section class="sunscribe">
-        <div class="container">
-
-          <div class="subscribe-title-wrapper">
-            <h2 class="subsctibe-title title">Подпишитесь на рассылку</h2>
-            <p class="subscribe-desctiption">Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.</p>
-          </div>
-
-          <div class="subscribe-form-wrapper">
-            <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="get">
-              <label class="subscribe-label" for="subscribe"><span class="visually-hidden">Подписаться</span></label>
-              <input class="subscribe-input" name="subscribe" id="subscribe" placeholder="Ваш e-mail" required>
-              <button class="subscribe-button" type="submit">Подписаться</button>
-            </form>
-            <span class="subscribe-info">Это бесплатно</span>
-          </div>
-
-        </div>
-      </section>
-
     </main>
 
 
