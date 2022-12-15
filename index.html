@@ -7,8 +7,6 @@
     <title>HTML Academy: Девайс - Главная страница</title>
   </head>
   <body>
-
-
     <header class="index-header">
       <div class="container">
         <a class="header-logo" href="#">
@@ -44,14 +42,48 @@
                     <span class="amount-cart">2</span>
                     Корзина
                   </a>
+                  <div class="card">
+                    <ul class="card-list clear-list">
+                      <li class="card-item">
+                        <a class="card-link" href="#" >
+                          <img class="card-img" width="39" height="43" src="images/card/product1.png" alt="Превью товара">
+                          <h2 class="card-titile">Любительская селфи-палка</h2>
+                        </a>
+                        <button class="card-delete-button" type="button">
+                          <span class="visually-hidden">Удалить товар из корзины</span>
+                        </button>
+                      </li>
+                      <li class="card-item">
+                        <a class="card-link" href="#" >
+                          <img class="card-img" width="39" height="43" src="images/card/product2.png" alt="Превью товара">
+                          <h2 class="card-titile">Профессиональная селфи-палка</h2>
+                        </a>
+                        <button class="card-delete-button" type="button">
+                            <span class="visually-hidden">Удалить товар из корзины</span>
+                          </button>
+                      </li>
+                    </ul>
+                    <div class="card-total">
+                      <div class="total-items">
+                        Товаров:
+                        <span class="number-items">2</span>
+                      </div>
+                      <div class="total-sum">
+                        Товаров:
+                        <span class="number-sum">2000</span>
+                        ₽
+                      </div>
+                    </div>
+                    <a class="card-button" href="#">Открыть корзину</a>
+                  </div>
                 </li>
               </ul>
             </nav>
           </div>
           <nav class="main-navigation">
             <div class="catalog-navigation-wrapper">
-              <a class="catalog-navigation-link navigation-link icon-minus" href="#">Каталог товаров</a>  <!-- Для замены иконки нужно заменить селектор icon-minus на icon-plus -->
-              <div class="drop-menu-wrapper drop-menu-active"> <!-- drop-menu-active выпадающий список -->
+              <a class="catalog-navigation-link navigation-link icon-minus" href="#">Каталог товаров</a>  <!-- Селектор иконки плюс: icon-plus -->
+              <div class="drop-menu-wrapper drop-menu-active">
                 <ul class="drop-menu-list clear-list">
                   <li class="drop-menu-item">
                     <a class="drop-menu-link" href="#">Виртуальная реальность</a>
@@ -97,6 +129,9 @@
       <h1 class="visually-hidden">Интернет магазин Девайс - доставка гаджетов по России</h1>
       <section class="slider">
         <div class="container">
+          <div class="slider-number-wrapper">
+            <span class="slider-number">01</span>
+          </div>
           <div class="slider-control-arrows">
             <button class="slider-button button-prev" type="button">
               <span class="visually-hidden">Предыдущий слайдер.</span>
@@ -107,14 +142,13 @@
           </div>
           <ul class="slider-content-list clear-list">
             <li class="slider-content-item slider-content-item-current">
-              <div class="slider-number-wrapper">
-                <span class="slider-number">01</span>
-              </div>
               <img class="slider-image" width="560" height="560" src="images/slider-quadrocopter.png" alt="Квадрокоптер с мощным лазером.">
               <div class="slider-content-wrapper">
                 <h2 class="slider-title title">Порхает как бабочка, жалит как пчела!</h2>
                 <p class="slider-description description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
-                <a class="slider-button-more button" href="">Подробнее</a>
+                <a class="slider-button-more button" href="#">
+                  <span class="button-text">Подробнее</span>
+                </a>
                 <div class="slider-details">
                   <dl class="slider-details-group">
                     <dt class="details-title">Дальность полета</dt>
@@ -128,14 +162,13 @@
               </div>
             </li>
             <li class="slider-content-item">
-              <div class="slider-number-wrapper">
-                <span class="slider-number">02</span>
-              </div>
               <img class="slider-image" width="560" height="560" src="images/slider-watches.png" alt="Квадрокоптер с мощным лазером.">
               <div class="slider-content-wrapper">
                 <h2 class="slider-title title">Худеем<br>правильно!</h2>
                 <p class="slider-description description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
-                <a class="slider-button-more button" href="">Подробнее</a>
+                <a class="slider-button-more button" href="#">
+                  <span class="button-text">Подробнее</span>
+                </a>
                 <div class="slider-details">
                   <dl class="slider-details-group">
                     <dt class="details-title">Без подзарядки</dt>
@@ -145,14 +178,13 @@
               </div>
             </li>
             <li class="slider-content-item">
-              <div class="slider-number-wrapper">
-                <span class="slider-number">03</span>
-              </div>
               <img class="slider-image" width="560" height="560" src="images/slider-selfie-sticks.png" alt="Квадрокоптер с мощным лазером.">
               <div class="slider-content-wrapper">
                 <h2 class="slider-title title">Делай селфи, как Бен Стиллер! </h2>
                 <p class="slider-description description">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.</p>
-                <a class="slider-button-more button" href="">Подробнее</a>
+                <a class="slider-button-more button" href="#">
+                  <span class="button-text">Подробнее</span>
+                </a>
                 <div class="slider-details">
                   <dl class="slider-details-group">
                     <dt class="details-title">Длина палки</dt>
@@ -239,13 +271,19 @@
             <div class="information-menu-wrapper">
               <ul class="information-menu clear-list">
                 <li class="information-item information-item-current">
-                  <button class="information-button button information-button-current" type="button">Доставка</button>
+                  <button class="information-button button information-button-current" type="button">
+                    <span class="button-text">Доставка</span>
+                  </button>
                 </li>
                 <li class="information-item">
-                  <button class="information-button button" type="button">Гарантия</button>
+                  <button class="information-button button" type="button">
+                    <span class="button-text">Гарантия</span>
+                  </button>
                 </li>
                 <li class="information-item">
-                  <button class="information-button button" type="button">Кредит</button>
+                  <button class="information-button button" type="button">
+                    <span class="button-text">Кредит</span>
+                  </button>
                 </li>
               </ul>
             </div>
@@ -333,7 +371,9 @@
         <h2 class="visually-hidden">Доставим редкий товар под заказ</h2>
         <div class="container">
           <a class="order-delivery-button" href="#">
-            <span class="icon-delivery-car"></span>
+            <div class="icon-delivery-wrapper">
+              <span class="icon-delivery-car"></span>
+            </div>
             Доставим редкий товар под заказ
             <span class="icon-note"></span>
           </a>
@@ -357,7 +397,7 @@
                   <span class="about-us-link">ТоксБерри</span>
                 </li>
               </ul>
-              <a class="about-us-button button" href="#">Подробнее о нас</a>
+              <a class="about-us-button button" href="#"><span class="button-text">Подробнее о нас</span></a>
             </section>
             <section class="contacts">
               <h2 class="contacts-title title">Контакты</h2>
@@ -367,7 +407,7 @@
               <a class="contacts-tel link" href="tel:+78128121212">+7 (812) 812-12-12</a>
               <h3 class="contacts-subtitle">Время работы</h3>
               <p class="contacts-work-time">пн—пт: с 10:00 до 22:00 <br>сб—вс: с 10:00 до 19:00</p>
-              <a class="contacts-button button" href="#">Напишите нам</a>
+              <a class="contacts-button button" href="#"><span class="button-text">Напишите нам</span></a>
             </section>
           </div>
         </div>
@@ -407,13 +447,13 @@
           <address class="footer-adress">Санкт-Петербург, набережная реки Карповки, 5, литера П.</address>
           <ul class="footer-menu-list clear-list">
             <li class="footer-menu-item">
-              <a class="footer-menu-link navigation-link" href="#">Доставка</a>
+              <a class="footer-menu-link" href="#">Доставка</a>
             </li>
             <li class="footer-menu-item">
-              <a class="footer-menu-link navigation-link" href="#">Гарантия</a>
+              <a class="footer-menu-link" href="#">Гарантия</a>
             </li>
             <li class="footer-menu-item">
-              <a class="footer-menu-link navigation-link" href="#">Контакты</a>
+              <a class="footer-menu-link" href="#">Контакты</a>
             </li>
           </ul>
           <a class="footer-tel link" href="tel:+78128121212">Тел.: +7 (812) 812-12-12</a>
