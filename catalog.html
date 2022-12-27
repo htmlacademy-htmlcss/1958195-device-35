@@ -150,27 +150,27 @@
           <section class="catalog-filter">
             <h2 class="filter-title catalog-sub-title">Фильтр:</h2>
             <form class="filter-form" action="https://echo.htmlacademy.ru/" method="get">
-              <fieldset class="filter-group filter-price">
-                <legend class="filter-group-title">Стоимость</legend>
-                <div class="filter-range">
-                  <div class="filter-range-scale">
-                    <div class="filter-range-bar" style="left: 0; width: 119px;">
-                      <div class="filter-toggle-wrapper label-min-price">
-                        <button class="filter-range-toggle" type="button">
-                          <span class="visually-hidden">Изменить минимальную цену.</span>
-                        </button>
-                        <label class="filter-range-input-label">
-                          от <input class="filter-range-input" type="number" value="0" size="1" name="min-price" onkeydown="this.style.width = ((this.value.length + 1) + 'px';">
-                        </label>
-                      </div>
-                      <div class="filter-toggle-wrapper label-max-price">
-                        <button class="filter-range-toggle" type="button">
-                          <span class="visually-hidden">Изменить максимальную цену.</span>
-                        </button>
-                        <label class="filter-range-input-label">
-                          до <input class="filter-range-input" type="number" value="5000" name="max-price" onkeydown="this.style.width = ((this.value.length + 1) + 'px';">
-                        </label>
-                      </div>
+              <fieldset class="filter-group filter-range">
+                <legend class="filter-group-title filter-range-title">Стоимость</legend>
+                <div class="filter-range-scale">
+                  <div class="filter-range-bar" style="left: 0; width: 119px;">
+                    <div class="filter-toggle-wrapper label-min-price">
+                      <button class="filter-range-toggle" type="button">
+                        <span class="visually-hidden">Изменить минимальную цену.</span>
+                      </button>
+                      <label class="filter-range-label">
+                        <span class="filte-range-name">от</span>
+                        <input class="filter-range-input" type="number" value="0" size="1" name="min-price" style="width: 1ch;">
+                      </label>
+                    </div>
+                    <div class="filter-toggle-wrapper label-max-price">
+                      <button class="filter-range-toggle" type="button">
+                        <span class="visually-hidden">Изменить максимальную цену.</span>
+                      </button>
+                      <label class="filter-range-label">
+                        <span class="filte-range-name">до</span>
+                        <input class="filter-range-input" type="number" value="5000" name="max-price" style="width: 4ch;">
+                      </label>
                     </div>
                   </div>
                 </div>
@@ -180,35 +180,35 @@
                 <ul class="filter-list clear-list">
                   <li class="filter-item">
                     <label class="filter-control">
-                      <input class="visually-hidden filter-control-input" type="checkbox" name="black" checked>
+                      <input class="filter-control-input visually-hidden" type="checkbox" name="black" checked>
                       <span class="filter-control-mark"></span>
                       <span class="filter-control-label">Черный</span>
                     </label>
                   </li>
                   <li class="filter-item">
                     <label class="filter-control">
-                      <input class="visually-hidden filter-control-input" type="checkbox" name="white" checked>
+                      <input class="filter-control-input visually-hidden" type="checkbox" name="white" checked>
                       <span class="filter-control-mark"></span>
                       <span class="filter-control-label">Белый</span>
                     </label>
                   </li>
                   <li class="filter-item">
                     <label class="filter-control">
-                      <input class="visually-hidden filter-control-input" type="checkbox" name="blue">
+                      <input class="filter-control-input visually-hidden" type="checkbox" name="blue">
                       <span class="filter-control-mark"></span>
                       <span class="filter-control-label">Синий</span>
                     </label>
                   </li>
                   <li class="filter-item">
                     <label class="filter-control">
-                      <input class="visually-hidden filter-control-input" type="checkbox" name="red">
+                      <input class="filter-control-input visually-hidden" type="checkbox" name="red" disabled>
                       <span class="filter-control-mark"></span>
                       <span class="filter-control-label">Красный</span>
                     </label>
                   </li>
                   <li class="filter-item">
                     <label class="filter-control">
-                      <input class="visually-hidden filter-control-input" type="checkbox" name="pink">
+                      <input class="filter-control-input visually-hidden" type="checkbox" name="pink">
                       <span class="filter-control-mark"></span>
                       <span class="filter-control-label">Розовый</span>
                     </label>
@@ -220,14 +220,14 @@
                 <ul class="filter-list clear-list">
                   <li class="filter-item">
                     <label class="filter-control">
-                      <input class="visually-hidden filter-control-input" type="radio" name="bluetooth-yes" value="bluetooth" checked>
+                      <input class="filter-control-input visually-hidden" type="radio" name="bluetooth-yes" value="bluetooth" checked>
                       <span class="filter-control-mark"></span>
                       <span class="filter-control-label">Есть</span>
                     </label>
                   </li>
                   <li class="filter-item">
                     <label class="filter-control">
-                      <input class="visually-hidden filter-control-input" type="radio" name="bluetooth-no" value="bluetooth">
+                      <input class="filter-control-input visually-hidden" type="radio" name="bluetooth-no" value="bluetooth">
                       <span class="filter-control-mark"></span>
                       <span class="filter-control-label">Нет</span>
                     </label>
