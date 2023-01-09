@@ -1890,7 +1890,7 @@ body {
   transition: opacity 0.3s;
 }
 
-.breadcrumbs-link:not(span):hover {
+.breadcrumbs-link:not(.breadcrumbs-link-current):hover {
   opacity: 0.6;
 }
 
@@ -1899,7 +1899,7 @@ body {
   outline: 2px solid #af4fff;
 }
 
-.breadcrumbs-link:not(span):active {
+.breadcrumbs-link:not(.breadcrumbs-link-current):active {
   opacity: 0.3;
 }
 
@@ -2592,7 +2592,7 @@ body {
   cursor: default;
 }
 
-.cards-pagination-number:not(span):hover {
+.cards-pagination-number:not(.cards-pagination-number-current):hover {
   opacity: 1;
 }
 
@@ -2605,7 +2605,7 @@ body {
   outline: 2px solid #af4fff;
 }
 
-.cards-pagination-number:not(span):active {
+.cards-pagination-number:not(.cards-pagination-number-current):active {
   opacity: 0.1;
 }
 
